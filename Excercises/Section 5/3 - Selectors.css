@@ -1,0 +1,45 @@
+/* THIS DOCUMENT DOESN'T HAVE AN HTML FILE ATTACHED TO IT, IT IS JUST MEANT TO SHOW THE DIFFERENT WAYS TO REFERENCE ELEMENT USING CSS */
+
+/*Element*/
+li{
+  color: red;
+}
+
+/*class*/
+.hello{
+  text-decoration-style: dotted;
+}
+
+/*Id*/
+#name{
+  background: red;
+}
+
+/*Star (applies style to all elements in the page)*/
+*{
+  border: 1px solid lightgrey;
+}
+
+/*Descendant Selector (Applies style to all elements nested in the same order)*/
+li a {
+  /*on this exaple it will apply color red to all <a> tags inside an <li> tag*/
+  color: red;
+}
+
+/*Adjacent Selector (Applies style to all elements to the right of the plus sign that are placed after the element to the left of the plus sign)*/
+h4 + ul{
+  /*On this case it will apply the style to all <ul> tags that have an <h4> tag before them and are at the same level on the html document*/
+  border: 4px solid red;
+}
+
+/*Attribute Selecor (Applies style to all elements that have the same attribute specified)*/
+a [href="http://www.google.com"]{
+  /*On this example it will apply the style to all <a> tags with the attribute "href="http://www.google.com" "*/
+  background: blue;
+}
+
+/*nth of type (Applies style to the element located on the specified place)*/
+ul:nth-of-type(3){
+  /*On this example it will apply the style to the third <ul> tag on the html document*/
+  border: 2px dotted blue;
+}

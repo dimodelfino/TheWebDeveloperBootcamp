@@ -1,0 +1,54 @@
+.mainDiv{
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+  border: 20px solid #bdc3c7;
+  margin-top: 20px;
+}
+
+.secundaryDiv{
+  margin: 3%;
+}
+
+.FirstParagraph{
+  border-left: 4px solid #bdc3c7;
+  padding-left: 1%;
+}
+
+.date{
+  color: #3498db;
+  text-transform: uppercase;
+  font-family: source sans pro;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+
+p{
+  font-family: source sans pro;
+}
+
+h2{
+  color: #2c3e50;
+  font-size: 2.0rem;
+}
+
+/* hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(189, 195, 199, 0.2);
+} */
+
+hr{
+    border: 0;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+
+font: source sans pro
+ */
